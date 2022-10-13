@@ -1,0 +1,10 @@
+{
+    "name": "HULK",
+    "symbol": "destroyer",
+    "description": "Green Giant",
+    "seller_fee_basis_points": 1,
+    "external_url": "",
+    "edition": "",
+    "background_color": "000000",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Hulk_%28circa_2019%29.png/220px-Hulk_%28circa_2019%29.png"
+}
