@@ -15,7 +15,7 @@ use {
 };
 
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
+declare_id!("BqwE3QfMqZvzXgvdqq2jnwdRrYHJyFLL8n9qF978FZr7");
 
 
 #[program]
@@ -90,7 +90,7 @@ pub mod mint_nft {
                     authority: ctx.accounts.mint_authority.to_account_info(),
                 },
             ),
-            1000,// minting amount
+            1,// minting amount should be one
         )?;
         //below functions come from metaplex
         msg!("Creating metadata account...");
@@ -135,7 +135,7 @@ pub mod mint_nft {
                 ctx.accounts.mint_authority.key(), 
                 ctx.accounts.metadata.key(), 
                 ctx.accounts.mint_authority.key(), 
-                Some(0),
+                Some(500),//max supply
             ),
             &[
                 ctx.accounts.master_edition.to_account_info(),

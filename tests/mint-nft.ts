@@ -7,7 +7,7 @@ describe("nft-marketplace", async () => {
   
   const testNftTitle = "HULK";
   const testNftSymbol = "destroyer";
-  const testNftUri = "https://raw.githubusercontent.com/Coding-and-Crypto/Solana-NFT-Marketplace/master/assets/example.json";
+  const testNftUri = "https://raw.githubusercontent.com/emredurgunlu/Anchor-Metaplex-NFT/master/assets/example.json";
 
   const provider = anchor.AnchorProvider.env()
   const wallet = provider.wallet as anchor.Wallet;

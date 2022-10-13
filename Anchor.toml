@@ -2,7 +2,7 @@
 seeds = false
 skip-lint = false
 [programs.devnet]
-mint_nft = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+mint_nft = "BqwE3QfMqZvzXgvdqq2jnwdRrYHJyFLL8n9qF978FZr7"
 
 [registry]
 url = "https://api.apr.dev"
